@@ -39,7 +39,7 @@ class LoginFormreqSpider(scrapy.Spider):
             'commit': 'Sign in',
             'authenticity_token': token,
             'login': '2726750297@qq.com',
-            'password': '2726750297@Dl',
+            'password': '',
             'trusted_device': '',
             'webauthn-support': 'supported',
             'webauthn-iuvpaa-support': 'unsupported',
